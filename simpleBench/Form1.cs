@@ -190,7 +190,7 @@ namespace simpleBench
                 textProgressBar1.CustomText = (PrN / 5).ToString();
                 textProgressBar1.Visible = true;
                 button2.Font = new System.Drawing.Font("Microsoft YaHei UI Light",
-                                           9.75F, System.Drawing.FontStyle.Regular,
+                                           9.75F, System.Drawing.FontStyle.Bold,
                                            System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 
             }
@@ -206,7 +206,7 @@ namespace simpleBench
                 textProgressBar2.CustomText = (result/5).ToString();
                 textProgressBar2.Visible = true;
                 button2.Font = new System.Drawing.Font("Microsoft YaHei UI Light",
-                                          9.75F, System.Drawing.FontStyle.Regular,
+                                          9.75F, System.Drawing.FontStyle.Bold,
                                           System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             }
 
@@ -228,7 +228,7 @@ namespace simpleBench
                 textProgressBar2.CustomText = (result / 5).ToString();
                 textProgressBar2.Visible = true;
                 button2.Font = new System.Drawing.Font("Microsoft YaHei UI Light",
-                                          9.75F, System.Drawing.FontStyle.Regular,
+                                          9.75F, System.Drawing.FontStyle.Bold,
                                           System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             }
 
@@ -458,7 +458,7 @@ namespace simpleBench
 
             File.WriteAllLines(dateFile.ToString(), lines);
 
-            MessageBox.Show($"Le fichier log\n{Path.GetFileName(dateFile.ToString())}\n à bien été créé sur le bureau",
+            MessageBox.Show($"Le fichier log\n{Path.GetFileName(dateFile.ToString())}\nà bien été créé sur le bureau",
                             "Bench by Monarc's log",
                              MessageBoxButtons.OK, MessageBoxIcon.Information);
         }

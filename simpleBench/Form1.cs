@@ -35,6 +35,7 @@ namespace simpleBench
             InitializeComponent();
             radioButton1.Checked = true;
             radioButton5.Checked = true;
+            
 
             ExtractResource("7zr", "bench7Z.exe");
 
@@ -457,7 +458,7 @@ namespace simpleBench
 
             File.WriteAllLines(dateFile.ToString(), lines);
 
-            MessageBox.Show($"Le fichier log {dateFile} à bien été créé sur le bureau",
+            MessageBox.Show($"Le fichier log\n{Path.GetFileName(dateFile.ToString())}\n à bien été créé sur le bureau",
                             "Bench by Monarc's log",
                              MessageBoxButtons.OK, MessageBoxIcon.Information);
         }

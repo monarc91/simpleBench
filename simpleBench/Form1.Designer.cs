@@ -393,7 +393,6 @@ namespace simpleBench
             this.MinimumSize = new System.Drawing.Size(557, 425);
             this.Name = "Form1";
             this.Text = "SimpleBench";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             this.tabPage1.ResumeLayout(false);

@@ -417,5 +417,14 @@ namespace simpleBench
         {
             WriteLog.Write(log, "7z");
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            // function every benchs
+            // reset all ()
+            // set the four textProg on the four panels
+            // and the label10 visible = true
+            // then label8 visible = false
+        }
     }
 }

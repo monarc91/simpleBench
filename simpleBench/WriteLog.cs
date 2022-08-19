@@ -29,8 +29,8 @@ namespace simpleBench
             string minute = "m" + DateTime.Now.ToString("ss") + "s.txt";
 
             // + jour + heure + minuteSeconds;
-            StringBuilder dateFile = new StringBuilder();
-            dateFile.Append(desktopPath);
+            StringBuilder dateFile = new StringBuilder(desktopPath);
+            // dateFile.Append();
             dateFile.Append(jour);
             dateFile.Append(heure);
             dateFile.Append(minute);
